@@ -1,0 +1,88 @@
+body{
+	background-color: #11111b;
+	}
+
+.main-div{
+	
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+.category {
+    width: 180px;
+    margin: 10px;
+    padding: 12px 12px 25px 12px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #313244;
+}
+
+a {	color: #cdd6f4;
+	text-decoration:none;
+	display:block;
+	line-height: 1.75;
+	
+	}
+
+.greetings {
+		color: #b4befe;
+		text-align:center;
+		font-size: 28pt;
+		margin-top: 25vh;
+		margin-bottom: 5vh;
+}
+	
+.work-title{
+	color: #89b4fa;
+}
+
+.social-title{
+	color: #fab387;
+}
+
+.tech-title{
+	color: #cba6f7;
+}
+
+.others-title{
+	color: #a6e3a1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

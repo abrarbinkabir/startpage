@@ -1,4 +1,4 @@
-Startpage for browsers using only HTML and CSS in **Catppuccin Frappe** theme. The screenshot is taken from **QuteBrowser**. This startpage has also been tested in **Firefox**.
+Startpage for browsers using only HTML and CSS in **Catppuccin Frappe** theme. The screenshot is taken from **QuteBrowser**. This startpage will also work with **Firefox**.
 
 ## Setup
 ### Qutebrowser

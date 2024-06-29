@@ -1,88 +1,91 @@
-body{
-	background-color: #11111b;
+:root {
+    --margin: 10px;
+    --width: 170px
+    
+}
+
+@media (min-width: 1040px) {
+    :root{
+        --margin: 12px;
+        --width: 190px;
+    }
+}
+
+@media (min-width: 1140px) {
+    :root{
+        --margin: 15px;
+        --width: 200px;
+    }
+}
+
+body, html{
+	background-color: #303446;
+    font-family: 'JetBrainsMono NFP', monospace;
+    margin: 0px;
 	}
 
 .main-div{
-	
+    height: 100vh;
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
     align-items: center;
     }
 
 .category {
-    width: 180px;
-    margin: 10px;
-    padding: 12px 12px 25px 12px;
-    border-radius: 10px;
+    width: var(--width);
+    margin: var(--margin);
+    padding: 12px 12px 20px 12px ;
+    border: 2px solid;
+    border-radius: 0px;
     text-align: center;
-    background-color: #313244;
+    background-color: #414559;
+}
+
+.category > h2 {
+    font-size: 16pt;
+    margin: 15px;
 }
 
 a {	color: #cdd6f4;
 	text-decoration:none;
 	display:block;
+    font-size: 13pt;
 	line-height: 1.75;
 	
 	}
 
-.greetings {
-		color: #b4befe;
-		text-align:center;
-		font-size: 28pt;
-		margin-top: 25vh;
-		margin-bottom: 5vh;
-}
-	
-.work-title{
-	color: #89b4fa;
+.study-title, .study a:hover{
+	color: #8caaee;
 }
 
-.social-title{
-	color: #fab387;
+.social-title, .social a:hover{
+	color: #ef9f76;
 }
 
-.tech-title{
-	color: #cba6f7;
+.tech-title, .tech a:hover{
+	color: #ca9ee6;
 }
 
-.others-title{
-	color: #a6e3a1;
+.others-title, .others a:hover{
+	color: #a6d189;
+}
+.study, .social, .tech, .others{
+    border-color: transparent;
+}	
+.study:hover{
+    border-color: #8caaee;
 }
 
+.social:hover{
+    border-color: #ef9f76;
+}
 
+.tech:hover{
+    border-color: #ca9ee6;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.others:hover{
+    border-color: #a6d189;
+}
